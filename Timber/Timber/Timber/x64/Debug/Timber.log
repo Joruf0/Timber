@@ -1,0 +1,15 @@
+﻿  Timber.cpp
+Timber.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Shape::setFillColor(class sf::Color)" (?setFillColor@Shape@sf@@QEAAXVColor@2@@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::CircleShape::CircleShape(float,unsigned __int64)" (??0CircleShape@sf@@QEAA@M_K@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::RenderTarget::clear(class sf::Color)" (?clear@RenderTarget@sf@@QEAAXVColor@2@@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,struct sf::RenderStates const &)" (?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBURenderStates@2@@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::VideoMode::VideoMode(class sf::Vector2<unsigned int>,unsigned int)" (??0VideoMode@sf@@QEAA@V?$Vector2@I@1@I@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: bool __cdecl sf::WindowBase::isOpen(void)const " (?isOpen@WindowBase@sf@@QEBA_NXZ) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: class std::optional<class sf::Event> __cdecl sf::WindowBase::pollEvent(void)" (?pollEvent@WindowBase@sf@@QEAA?AV?$optional@VEvent@sf@@@std@@XZ) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::Window::~Window(void)" (??1Window@sf@@UEAA@XZ) referenced in function "public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UEAA@XZ)
+Timber.obj : error LNK2019: unresolved external symbol "public: virtual void __cdecl sf::Window::close(void)" (?close@Window@sf@@UEAAXXZ) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Window::display(void)" (?display@Window@sf@@QEAAXXZ) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,enum sf::State,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IW4State@1@AEBUContextSettings@1@@Z) referenced in function main
+Timber.obj : error LNK2001: unresolved external symbol "public: static struct sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2U12@B)
+C:\Users\CFGS2\source\repos\Timber\x64\Debug\Timber.exe : fatal error LNK1120: 13 unresolved externals
